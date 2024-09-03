@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="Autor"content="Misael Trotman">
+<title>Olimpiada de París 2024</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Encabezado principal -->
+<header>
+<h1>Olimpiada de París 2024</h1>
+<h2>Bienvenido a la página informativa</h2>
+</header>
+
+<!-- Imagen de París -->
+<section>
+<img src="paris.jpg" alt="Imagen de París" width="600" height="400">
+</section>
+
+<!-- Párrafos con información -->
+<section>
+<h3>Información de las Olimpiadas</h3>
+<p>Las Olimpiadas de París 2024 serán un evento global que unirá a atletas de todo el mundo para competir en diversas disciplinas deportivas.</p>
+<p>Es un honor para París ser la sede de este evento histórico, que promete ser un espectáculo inolvidable.</p>
+  </section>
+
+<!-- Lista ordenada y no ordenada -->
+<section>
+<h3>Disciplina Deportiva</h3>
+<ul>
+<li>Atletismo</li>
+<li>Natación</li>
+<li>Gimnasia</li>
+</ul>
+<ol>
+<li>Competencia 1</li>
+<li>Competencia 2</li>
+<li>Competencia 3</li>
+</ol>
+</section>
+
+<!-- Tabla de atletas -->
+<section>
+<h3>Listado de Atletas de París 2024</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nombre</th>
+<th>Disciplina Deportiva</th>
+<th>Nacimiento</th>
+<th>Observación</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>1</td>
+<td>Juan Pérez</td>
+<td>Atletismo</td>
+<td>1990-05-14</td>
+<td>Campeón nacional</td>
+</tr>
+<tr>
+<td>2</td>
+<td>María López</td>
+<td>Natación</td>
+<td>1992-08-22</td>
+<td>Medallista olímpica</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pedro Gómez</td>
+<td>Gimnasia</td>
+<td>1995-03-30</td>
+<td>Debut olímpico</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Laura Rodríguez</td>
+<td>Baloncesto</td>
+<td>1994-11-12</td>
+<td>Estrella del equipo nacional</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Carlos Sánchez</td>
+<td>Esgrima</td>
+<td>1988-02-17</td>
+<td>Medalla de plata en 2016</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<!-- Pie de página -->
+<footer>
+<p>&copy; 2024 Olimpiada de París. Todos los derechos reservados. Diseñado por [Misael Trotma].</p>
+</footer>
+
+<!-- Script opcional -->
+<script src="script.js"></script>
+</body>
+</html>
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+padding: 20px;
+background-color: #f4f4f4;
+}
+
+header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+img {
+display: block;
+margin: 0 auto;
+border-radius: 10px;
+}
+
+h1, h2, h3 {
+color: #333;
+}
+
+p {
+text-align: justify;
+}
+
+ul {
+list-style-type: square;
+}
+
+ol {
+list-style-type: decimal;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+th {
+background-color: #f4f4f4;
+}
+
+footer {
+ text-align: center;
+ margin-top: 20px;
+ color: #777;
+}
